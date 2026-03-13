@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+header{
+    background-color: #b91c1c;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* height: 10vh; */
+}
+#logo{
+    width: 10vw;
+    margin: 0;
+}
+input{
+    border: 0;
+    color: #a8a29e;
+    background-color: #b91c1c;
+}
+nav ul{
+    display: flex;
+    justify-content: space-evenly;
+     list-style: none;
+     gap: 10%;
+     font-size: 0.6rem;
+}
+nav a{
+    text-decoration: none;
+    color: white;
+   
+    justify-content: space-between;
+}
