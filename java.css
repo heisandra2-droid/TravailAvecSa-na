@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+     max-width: 100%;
+}
+header{
+    background-color: #b91c1c;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    max-width: 100%;
+}
+#logo{
+    width: 12vw;
+    margin: 0;
+}
+.input{
+    border: 0;
+    color: #a8a29e;
+    background-color: #b91c1c;
+     left: 15%;
+    position: relative;
+}
+nav ul{
+    display: flex;
+    justify-content: space-between;
+     list-style: none;
+     gap: 10%;
+     font-size: 0.7rem;
+   
+}
+nav a{
+    text-decoration: none;
+    color: white;
+   align-items: center;
+   text-align: center;
+    justify-content: space-between;
+}
+
+header i{
+    width: 8vw;
+    color: azure;
+    
+}
+.background{
+    height: 3vh;
+    background-color: #f9f6f1;
+}
+.pti_titre{
+    font-size: 0.7rem;
+    color: #78716c;
+}
+.drapeau{
+    width: 1.5vw;
+  
+}
+
+#All{
+    font-size: 10px;
+    width: 10vw;
+    text-align: center;
+}
+strong{
+    color: red;
+    font-size: 8px;
+}
+#demo{
+    width: 15vw;
+    margin: 0;
+   color:  #b91c1c;
+   
+}
+.range{
+    display: flex;
+    flex-wrap: wrap;
+    width: 15vw;
+    
+}
+section{
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    background-color: #f9f6f1;;
+    align-items: center;
+    text-align: center;
+    margin-left: 5vw;
+    margin-right: 5vw;
+    border-radius: 7px;
+}
+.search{
+    width: 10vw;
+    border-radius: 5px;
+    margin-top: 20px;
+    
+}
+
+@media screen and (width <= 720px) {
+header{
+    height: 4vh;
+}
+input{
+    font-size: 8px;
+}
+header i{
+    right: -2vw;
+    position: relative;
+}
+section{
+    flex-wrap: wrap;
+}
+nav ul{
+    font-size: 0.5rem;
+    
+}
+    
+}
+@media screen and (width >= 800px) {
+    header{
+        height: 6vh;
+    }
+    header i{
+    right: -2vw;
+    position: relative;
+}
+}
